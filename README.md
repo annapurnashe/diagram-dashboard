@@ -1,4 +1,39 @@
 # Getting Started with Create React App
+# Simple Diagram Dashboard
+This is a React dashboard where users can upload a diagram image and view circuit components.
+## Features
+- Upload PNG/JPG image
+- Image preview
+- Replace uploaded image
+- Zoom In / Zoom Out / Reset controls
+- Components list panel
+- Responsive dashboard layout
+
+## Tech Stack
+- React
+- JavaScript
+- CSS
+
+## Project Structure
+src
+ ├── components
+ │   ├── UploadBox.jsx
+ │   ├── DiagramViewer.jsx
+ │   └── ComponentList.jsx
+ ├── pages
+ │   └── Dashboard.jsx
+ ├── services
+ │   └── api.js
+
+## Run Project
+
+Install dependencies:
+
+npm install
+
+Start the project:
+
+npm start
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
